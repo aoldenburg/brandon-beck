@@ -13,7 +13,7 @@ class App extends Component {
             <Link to='/'>Home</Link>
             <Link to='/brandons-story'>Brandon's Story</Link>
           </Nav>
-          <Route path='/' component={Home} />
+          <Route exact path='/' component={Home} />
           <Route path='/brandons-story' component={BrandonsStory} />
         </div>
       </Router>
