@@ -1,12 +1,9 @@
 import React from 'react';
 
-import Logo from './Logo';
-import Link from './Link';
+import Bar from './Bar';
 
-export default function Nav() {
+export default function Nav(props) {
   return(
-    <nav>
-      <Logo>
-    </nav>
+    <Bar {...props} />
   );
 }

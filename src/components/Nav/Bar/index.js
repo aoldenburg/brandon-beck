@@ -1,6 +1,7 @@
-import styled from 'styled-components';
+import React from 'react';
 
-const Bar = styled.nav`
-  background-color: rgb(37, 37, 37);
-  
-`
+import './Bar.css';
+
+export default function Bar(props) {
+  return(<nav {...props} className="navBar" />)
+}
