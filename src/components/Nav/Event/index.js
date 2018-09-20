@@ -14,6 +14,7 @@ export default function TicketButton() {
   return(
     <React.Fragment>
       <Helmet>
+        <title>Memes are dead</title>
         <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
       </Helmet>
       <button className="link" id="eventbrite-widget-modal-trigger-49861458966" type="button" onClick={createWidget}>Buy Tickets</button>

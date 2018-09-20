@@ -9,7 +9,7 @@ import BuyTickets from './Event'
 export default function Nav(props) {
   return(
     <Bar>
-      <Heading>The Brandon L. Beck Memorial Scholarship Fund</Heading>
+      <Heading>The Brandon Lee Beck Memorial Scholarship Fund</Heading>
       <Links>
         <Link to="/" exact>Home</Link>
         <Link to="/brandons-story">Brandon's Story</Link>
