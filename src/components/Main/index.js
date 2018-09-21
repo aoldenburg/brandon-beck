@@ -1,7 +1,5 @@
 import React from 'react'
 
-import './Main.css'
-
 export default function Main({ children }) {
-  return (<main role="main" className="main">{children}</main>)
+  return (<main role="main" className="hero is-white">{children}</main>)
 }

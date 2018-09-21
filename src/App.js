@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
-import './App.css'
+import './App.scss'
 import Nav from './components/Nav'
 import { Home, BrandonsStory } from './pages'
 import { Background } from './components'

@@ -1,9 +1,11 @@
 import React from 'react';
+import classnames from 'classnames'
 
-import './Links.css';
-
-export default function Links(props) {
+export default function Links({ isActive, ...rest }) {
+  const classes = classnames('navbar-menu', { 'is-active': isActive })
   return(
-    <ul {...props} className="linkList" />
+    <div className={classes} id="navMenu">
+      <ul {...rest} className="navbar-end" />
+    </div>
   );
 }

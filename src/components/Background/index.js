@@ -1,10 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import './Background.css'
-
 export default function Background({children, ...rest}) {
-  return (<div className="background" {...rest}>{children}</div>)
+  return (<div className="has-background-dark" {...rest}>{children}</div>)
 }
 
 Background.propTypes = {
