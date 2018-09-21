@@ -1,5 +1,8 @@
 import React from 'react'
 
+import twitterIcon from '../../static/twitter.png'
+import facebookIcon from '../../static/facebook.png'
+
 import Bar from './Bar'
 import Links from './Links'
 import Link from './Link'
@@ -19,6 +22,8 @@ export default class Nav extends React.Component {
         <div className="navbar-brand">
           <Heading className="is-hidden-mobile">The Brandon Lee Beck Memorial Scholarship Fund</Heading>
           <Heading className="is-hidden-tablet"> The BLB Memorial Scholarship Fund</Heading>
+          <a target="_blank" rel="noopener noreferrer" className="navbar-item" href="https://twitter.com/2angels2here"><img className="" src={twitterIcon} alt="BLB Twitter"/></a>
+          <a target="_blank" rel="noopener noreferrer" className="navbar-item" href="https://facebook.com/BLB34"><img className="" src={facebookIcon} alt="BLB Twitter"/></a>
           <Burger onClick={this.handleClick} isActive={isActive} />
         </div>
         <Links isActive={isActive} >
@@ -28,7 +33,7 @@ export default class Nav extends React.Component {
           <div className="navbar-divider"></div>
           <BuyTickets />
           <a className="navbar-item" target="_blank" rel="noopener noreferrer" href="https://facebook.com/BLB34">Facebook Page</a>
-          <a className="navbar-item" target="_blank" rel="noopener noreferrer" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=kris@brandonbeck.org&lc=US&item_name=Brandon+L.+Beck+Memorial+Scholarship&no_note=0&no_shipping=2&curency_code=USD&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted">Donate</a>
+          <a className="navbar-item has-text-weight-bold has-text-primary" target="_blank" rel="noopener noreferrer" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=kris@brandonbeck.org&lc=US&item_name=Brandon+L.+Beck+Memorial+Scholarship&no_note=0&no_shipping=2&curency_code=USD&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted">Donate</a>
         </Links>
       </Bar>
     );

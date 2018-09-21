@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom'
 
 import image from '../../static/brandon_football.jpg'
 import krisAndEric from '../../static/krisAndEric.jpeg'
-import twitterIcon from '../../static/twitter.png'
-import facebookIcon from '../../static/facebook.png'
 
 export default () => (
   <Background>
@@ -13,12 +11,6 @@ export default () => (
       <Section className="hero-body has-text-centered is-shadowed">
         <h1 className="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">The BLB Memorial Scholarship Fund</h1>
         <h2 className="subtitle">A scholarship fund for Chandler High School football players</h2>
-        <div>
-          <a target="_blank" href="https://twitter.com/2angels2here"><img className="icon" src={twitterIcon} alt="BLB Twitter"/></a>
-          <a target="_blank" href="https://facebook.com/BLB34"><img className="icon" src={facebookIcon} alt="BLB Twitter"/></a>
-        </div>
-
-
         <figure>
           <img src={image} alt="Brandon Lee Beck in his football uniform" />
           <div className="is-sr-only">
@@ -60,8 +52,6 @@ export default () => (
         </div>
 
       </Section>
-      <Section>
-
-      </Section>
+    
     </Main>
   </Background>)
