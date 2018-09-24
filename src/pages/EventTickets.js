@@ -1,19 +1,15 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 
 import { Background, Main, Section } from '../components'
 import Barbeque from '../static/bbq.jpg'
 
 function loadWidget() {
-  window.EBWidgets.createWidget({
-    // Required
+    window.EBWidgets.createWidget({
     widgetType: 'checkout',
     eventId: '49861458966',
-    iframeContainerId: 'eventbrite-widget-container-49861458966',
-
-    // Optional
-    // iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-    onOrderComplete: () => console.log('Order Complete!')  // Method called when an order has successfully completed
+    modal: true,
+    modalTriggerElementId: 'eventbrite-widget-modal-trigger-49861458966',
+    onOrderComplete: () => console.log('Hello memes')
   });}
 export default () => (
   <Background>
