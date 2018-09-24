@@ -14,7 +14,6 @@ export default function TicketButton() {
   return(
     <React.Fragment>
       <Helmet>
-        <title>Memes are dead</title>
         <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
       </Helmet>
       <a

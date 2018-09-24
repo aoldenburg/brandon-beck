@@ -2,4 +2,10 @@
 
 $primary: #002892;
 $primary-invert: #fff;
+
+.is-vertical-centered {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
 @import "~bulma/bulma";

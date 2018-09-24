@@ -10,7 +10,7 @@ export default () => (
     <Main>
       <Section className="hero-body has-text-centered is-shadowed">
         <h1 className="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">The BLB Memorial Scholarship Fund</h1>
-        <h2 className="subtitle">A scholarship fund for Chandler High School football players</h2>
+        <h2 className="subtitle">In Memory of Brandon Lee Beck</h2>
         <figure>
           <img src={image} alt="Brandon Lee Beck in his football uniform" />
           <div className="is-sr-only">
@@ -52,6 +52,18 @@ export default () => (
         </div>
 
       </Section>
-    
+      <Section className="has-background-primary has-text-white" >
+        <h1 className="title has-text-white">Get Involved</h1>
+        <div className="container">
+          <p>
+            Help us enable young adults continue their education by donating or attending one of our events. Annually, we host a fundraising barbeque with support from local businesses. If you own a business and would like to get involved, contact Kris
+            at <a className="" href="mailto:kris@brandonbeck.org">kris@brandonbeck.org</a>.
+          </p>
+          <br />
+          <p>
+            The Brandon Lee Beck Memorial Scholarship fund is a 501c Non-Profit Organization (TAX ID #45-3603622). Proceeds from events and donations go towards paying out scholarships for former Chandler High School Students who attend university.
+          </p>
+        </div>
+      </Section>
     </Main>
   </Background>)

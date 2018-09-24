@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import './App.scss'
 import Nav from './components/Nav'
-import { Home, BrandonsStory } from './pages'
-import { Background } from './components'
+import { Home, BrandonsStory, Scholarship } from './pages'
 
 class App extends Component {
   render() {
@@ -16,6 +15,7 @@ class App extends Component {
           </Nav>
           <Route exact path='/' component={Home} />
           <Route path='/brandons-story' component={BrandonsStory} />
+          <Route path='scholarship-information' component={Scholarship} />
         </div>
       </Router>
 
