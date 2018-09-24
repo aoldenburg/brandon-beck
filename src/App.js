@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import './App.scss'
 import Nav from './components/Nav'
-import { Home, BrandonsStory, Scholarship } from './pages'
+import { Home, BrandonsStory, Scholarship, EventTickets } from './pages'
 
 class App extends Component {
   render() {
@@ -15,8 +15,9 @@ class App extends Component {
           </Nav>
           <Route exact path='/' component={Home} />
           <Route path='/brandons-story' component={BrandonsStory} />
-          <Route path='scholarship-information' component={Scholarship} />
-        </div>
+          <Route path='/scholarship-info' component={Scholarship} />
+          <Route path='/event-tickets' component={EventTickets} />
+            </div>
       </Router>
 
     )
