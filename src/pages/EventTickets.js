@@ -33,7 +33,7 @@ export default () => (
         </p>
         <br />
         <div className="columns is-centered">
-          <button className="button is-centered is-large is-primary" onClick={loadWidget}>Purchase Tickets</button>
+          <a className="button is-centered is-large is-primary" href="https://www.eventbrite.com/e/the-blb-memorial-scholarship-fund-bbq-and-raffle-tickets-49861458966">Purchase Tickets</button>
         </div>
       </Section>
     </Main>
