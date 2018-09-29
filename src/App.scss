@@ -3,6 +3,12 @@
 $primary: #002892;
 $primary-invert: #fff;
 
+.has-margin-r-1 {
+  margin-right: 0.5rem;
+}
+.has-margin-b-2 {
+  margin-bottom: 1rem;
+}
 .is-vertical-centered {
   display: flex;
   align-items: center;

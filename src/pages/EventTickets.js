@@ -3,21 +3,13 @@ import React from 'react'
 import { Background, Main, Section } from '../components'
 import Barbeque from '../static/bbq.jpg'
 
-function loadWidget() {
-    window.EBWidgets.createWidget({
-    widgetType: 'checkout',
-    eventId: '49861458966',
-    modal: true,
-    modalTriggerElementId: 'eventbrite-widget-modal-trigger-49861458966',
-    onOrderComplete: () => console.log('Hello memes')
-  });}
+import style from './EventTickets.css'
+
 export default () => (
   <Background>
     <Main>
-      <div className="container">
-        <h1 className="title has-text-primary has-text-centered is-shadowed">The Brandon Lee Beck Annual Barbeque</h1>
-        <img className="image" src={Barbeque} alt="The BLB Annual Fundraising Barbeque"></img>
-      </div>
+      <h1 className="title has-text-primary has-text-centered is-shadowed">The Brandon Lee Beck Annual Barbeque</h1>
+      <img className={style.heroImage} src={Barbeque} alt="The BLB Annual Fundraising Barbeque"></img>
 
       <Section className="has-background-primary has-text-white">
         <h1 className="title has-text-white">About the Event</h1>
@@ -33,7 +25,7 @@ export default () => (
         </p>
         <br />
         <div className="columns is-centered">
-          <a className="button is-centered is-large is-primary" href="https://www.eventbrite.com/e/the-blb-memorial-scholarship-fund-bbq-and-raffle-tickets-49861458966">Purchase Tickets</button>
+          <a className="button is-centered is-large is-primary" href="https://www.eventbrite.com/e/the-blb-memorial-scholarship-fund-bbq-and-raffle-tickets-49861458966">Purchase Tickets</a>
         </div>
       </Section>
     </Main>

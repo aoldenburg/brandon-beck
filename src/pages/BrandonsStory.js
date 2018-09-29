@@ -7,7 +7,7 @@ export default () => (
   <Background>
     <Main>
       <Section className="hero-body has-white-background is-shadowed">
-        <h1 className="title has-text-primary has-text-centered">Brandon's Story</h1>
+        <h1 className="title is-spaced has-text-centered is-size-1-desktop is-size-2-tablet is-size-3-mobile">Brandon's Story</h1>
         <div className="has-text-centered">
           <img src={Brandon} alt="Brandon Beck" />
           <figcaption className="has-text-primary has-text-centered">Brandon Lee Beck 9/9/1991 – 9/5/2010</figcaption>
