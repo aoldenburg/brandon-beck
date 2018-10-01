@@ -2,7 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFileDownload } from '@fortawesome/free-solid-svg-icons'
 
-import { Background, Main, Section } from '../components'
+import { Background, Section } from '../components'
 
 export default () => (
   <Background>
@@ -22,10 +22,10 @@ export default () => (
       <h1 className="title has-text-primary">Application Documents</h1>
       <ul>
         <li className="is-size-4-desktop has-margin-b-2">
-          <a className="has-text-color-link" download href="../../static/applicationInformation.pdf"><FontAwesomeIcon icon={faFileDownload} className="has-margin-r-1"/>Application Information</a>
+          <a className="has-text-color-link" download href="../../static/applicationInformation.pdf"><FontAwesomeIcon icon={faFileDownload} className="has-margin-r-1"/>Application Criteria</a>
         </li>
         <li className="is-size-4-desktop has-margin-b-2">
-          <a className="has-text-color-link" download href="../../static/applicationInformation.pdf"><FontAwesomeIcon icon={faFileDownload} className="has-margin-r-1"/>BLB Application</a>
+          <a className="has-text-color-link" download href="../../static/applicationInformation.pdf"><FontAwesomeIcon icon={faFileDownload} className="has-margin-r-1"/>BLB Memorial Scholarship Fund Application</a>
         </li>
       </ul>
       <p>Any questions? Contact <a href="mailto:kris@brandonbeck.org">kris@brandonbeck.org</a>.</p>
