@@ -25,7 +25,7 @@ export default () => (
           <a className="has-text-color-link" download href="../../static/applicationInformation.pdf"><FontAwesomeIcon icon={faFileDownload} className="has-margin-r-1"/>Application Criteria</a>
         </li>
         <li className="is-size-4-desktop has-margin-b-2">
-          <a className="has-text-color-link" download href="../../static/applicationInformation.pdf"><FontAwesomeIcon icon={faFileDownload} className="has-margin-r-1"/>BLB Memorial Scholarship Fund Application</a>
+          <a className="has-text-color-link" download href="../../static/blbApplication.pdf"><FontAwesomeIcon icon={faFileDownload} className="has-margin-r-1"/>BLB Memorial Scholarship Fund Application</a>
         </li>
       </ul>
       <p>Any questions? Contact <a href="mailto:kris@brandonbeck.org">kris@brandonbeck.org</a>.</p>
