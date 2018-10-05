@@ -17,7 +17,7 @@ class App extends Component {
           <Route path='/brandons-story' component={BrandonsStory} />
           <Route path='/scholarship-info' component={Scholarship} />
           <Route path='/event-tickets' component={EventTickets} />
-            </div>
+        </div>
       </Router>
 
     )
