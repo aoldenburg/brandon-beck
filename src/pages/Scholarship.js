@@ -11,6 +11,7 @@ export default () => (
     </Section>
     <Section className="has-background-primary has-text-white">
       <h1 className="title has-text-white is-size-3-tablet is-size-4-mobile">Prospective Applicants and Requirements</h1>
+      <h2 className="is-size-4-desktop has-margin-b-2 has-text-white">Application Due Date: Friday November 7th</h2>
       <p>
         The Brandon Lee Beck Memorial Scholarship is open to varsity football students of Chandler High School. One Scholarship will be awarded to a current CHS Senior.
         Student must anticipate completion of high school diploma at end of current school year.
