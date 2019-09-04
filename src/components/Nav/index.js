@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTicketAlt, faFileInvoice, faHome, faFootballBall } from '@fortawesome/free-solid-svg-icons'
+import {faTicketAlt, faFileInvoice, faHome, faFootballBall, faBullhorn} from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faPaypal, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 import Bar from './Bar'
@@ -29,7 +29,7 @@ export default class Nav extends React.Component {
           <Link to="/" exact><FontAwesomeIcon icon={faHome} className="has-margin-r-1"/>Home</Link>
           <Link to="/brandons-story"><FontAwesomeIcon icon={faFootballBall} className="has-margin-r-1"/>Brandon's Story</Link>
           <Link to="/scholarship-info"><FontAwesomeIcon icon={faFileInvoice} className="has-margin-r-1"/>Scholarship Info</Link>
-          <Link to="/event-tickets"><FontAwesomeIcon icon={faTicketAlt} className="has-margin-r-1"/>BBQ Tickets</Link>
+          <Link to="/updates"><FontAwesomeIcon icon={faBullhorn} className="has-margin-r-1" />Updates</Link>
           <a className="navbar-item" target="_blank" rel="noopener noreferrer" href="https://twitter.com/BLBFund34"><FontAwesomeIcon className="has-text-link has-margin-r-1" icon={faTwitter}/>Twitter</a>
           <a className="navbar-item" target="_blank" rel="noopener noreferrer" href="https://facebook.com/BLB34"><FontAwesomeIcon className="has-text-link has-margin-r-1" icon={faFacebook} />Facebook Page</a>
           <a
